@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #1761fd;
+  --color-secondary: #a12c34;
+  --color-tertiaty: #99a0a3;
+}
+
+p, nav, span, a {
+  color: white;
+}
+
+a { 
+  @apply text-blue-700;
+  @apply border-b-2 border-transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+  transition: all 0.3s ease-in-out;
+}
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.reverse {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}

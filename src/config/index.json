@@ -1,0 +1,145 @@
+{
+  "company": {
+    "name": "RMS Software House",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Serviços",
+      "href": "product"
+    },
+    {
+      "name": "Tecnologias",
+      "href": "features"
+    }
+  ],
+  "mainHero": {
+    "title": "Transforme seu negócio com a",
+    "subtitle": "RMS Software House",
+    "description": "Na RMS - Software House, somos especialistas em criar e customizar softwares que impulsionam a eficiência e a inovação. Nossas soluções de automação para WhatsApp e inteligência artificial são projetadas para atender às necessidades específicas do seu empreendimento, garantindo resultados excepcionais e um crescimento sustentável. Descubra como podemos transformar seu negócio com tecnologia de ponta e um serviço personalizado.",
+    "img": "/assets/images/hero_img.jpg",
+    "primaryAction": {
+      "text": "Chamar no WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=5545998420630&text=Ol%C3%A1%20RMS!%20Acessei%20o%20site%20de%20voc%C3%AAs%20e%20quero%20conversar%20com%20voc%C3%AAs!"
+    },
+    "secondaryAction": {
+      "text": "Email",
+      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+    }
+  },
+  "product": {
+    "title": "Nossos Serviços",
+    "items": [
+      {
+        "title": "Criação e Customização de Softwares",
+        "description": "Na RMS - Software House, desenvolvemos soluções de software sob medida para atender às necessidades específicas do seu negócio. Nossa equipe de desenvolvedores experientes trabalha em estreita colaboração com você para entender seus desafios e objetivos, criando aplicações robustas, escaláveis e intuitivas. Seja para gestão de projetos, controle de estoque, CRM ou qualquer outra necessidade, garantimos um software que otimiza processos e aumenta a produtividade.",
+        "img": "/assets/svgs/product1.svg"
+      },
+      {
+        "title": "Automação para WhatsApp",
+        "description": "Maximize a eficiência da comunicação com seus clientes através de nossas soluções de automação para WhatsApp. Desenvolvemos bots inteligentes que podem responder a perguntas frequentes, processar pedidos, agendar compromissos e muito mais, tudo de forma automatizada. Nossas soluções são integradas com seus sistemas existentes, proporcionando uma experiência de usuário fluida e melhorando significativamente o atendimento ao cliente.",
+        "img": "/assets/svgs/product2.svg"
+      },
+      {
+        "title": "Inteligência Artificial para Empreendimentos",
+        "description": "Leve seu negócio para o próximo nível com nossas soluções de Inteligência Artificial. Na RMS - Software House, implementamos tecnologias de IA que transformam dados em insights valiosos, automatizam tarefas complexas e melhoram a tomada de decisões. Desde chatbots avançados até análise preditiva e personalização de serviços, nossa expertise em IA ajuda a criar uma vantagem competitiva sustentável para o seu empreendimento.",
+        "img": "/assets/svgs/product3.svg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Somente o melhor",
+    "subtitle": "Usamos as tecnologias mais modernas para o seu sucesso!",
+    "description": "Na RMS - Software House, utilizamos as tecnologias mais modernas para criar soluções personalizadas que impulsionam a produtividade e eficiência do seu negócio. Nossa equipe de especialistas está sempre atualizada com as últimas tendências em desenvolvimento de software, automação e inteligência artificial. Confie na RMS para transformar suas ideias em realidade e levar seu empreendimento ao próximo nível.",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React é uma biblioteca JavaScript de código aberto para construção de interfaces de usuário ou componentes de UI.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "GoLang",
+        "description": "GoLang, ou Go, é uma linguagem de programação de código aberto que facilita a construção de software simples, confiável e eficiente.",
+        "icon": "/assets/images/go.png"
+      },
+      {
+        "name": "GeminiAI",
+        "description": "GeminiAI é uma plataforma avançada de inteligência artificial que oferece soluções inovadoras para análise de dados e automação de processos.",
+        "icon": "/assets/svgs/gemini.svg"
+      },
+      {
+        "name": "n8n",
+        "description": "n8n é uma ferramenta de automação de código aberto que permite a criação de fluxos de trabalho automatizados com integração entre diferentes serviços e APIs.",
+        "icon": "/assets/images/n8n.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+    }
+  }
+}
