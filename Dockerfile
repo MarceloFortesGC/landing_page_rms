@@ -8,16 +8,16 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 
 # Instale as dependências do projeto
-RUN npm install
+RUN yarn
 
 # Copie todos os arquivos do projeto para o diretório de trabalho
 COPY . .
 
 # Construa o projeto Next.js
-RUN npm run build
+RUN yarn run build
 
 # Exponha a porta que a aplicação irá rodar
 EXPOSE 3000
 
 # Comando para iniciar a aplicação
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
