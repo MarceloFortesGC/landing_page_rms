@@ -76,12 +76,18 @@ const About = () => {
             </svg>
           </a>
         </div> */}
-        <div className="flex gap-1 items-center mt-6 jus">
-          <p className="text-xs lg:text-sm leading-none dark:text-gray-50">
-            &copy; {new Date().getFullYear()} desenvolvido por
-          </p>
-          <p className="text-primary">
-            RMS - Software House
+        <div className='flex flex-col items-center justify-center mt-6'>
+          <div className="flex gap-1 items-center mt-6 jus">
+            <p className="text-xs lg:text-sm leading-none dark:text-gray-50">
+              &copy; {new Date().getFullYear()} desenvolvido por
+            </p>
+            <p className="text-primary">
+              RMS - Software House
+            </p>
+            <br />
+          </div>
+          <p className='text-xs lg:text-sm leading-none mt-2'>
+            55.617.703/0001-55
           </p>
         </div>
       </div>

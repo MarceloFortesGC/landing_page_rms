@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "RMS Software House",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo_rms.png"
   },
   "navigation": [
     {
@@ -68,9 +68,9 @@
         "icon": "/assets/svgs/gemini.svg"
       },
       {
-        "name": "n8n",
-        "description": "n8n é uma ferramenta de automação de código aberto que permite a criação de fluxos de trabalho automatizados com integração entre diferentes serviços e APIs.",
-        "icon": "/assets/images/n8n.png"
+        "name": "OpenAI",
+        "description": "Somos especializados em IA da OpenAI, criando soluções personalizadas que integram tecnologias avançadas para automatizar processos e gerar insights valiosos.",
+        "icon": "/assets/images/openai.png"
       }
     ]
   },
@@ -137,9 +137,9 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "",
+      "twitter": "",
+      "linkedin": ""
     }
   }
 }

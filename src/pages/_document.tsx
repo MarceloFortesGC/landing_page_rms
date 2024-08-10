@@ -2,12 +2,13 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 import { AppConfig } from '../utils/AppConfig';
 
-// Need to create a custom _document because i18n support is not compatible with `next export`.
 class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head title='RMS Software House'>
+          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        </Head>
         <body>
           <Main />
           <NextScript />

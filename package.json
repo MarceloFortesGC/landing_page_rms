@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "build-stats": "cross-env NODE_OPTIONS=--openssl-legacy-provider ANALYZE=true npm run build",
     "export": "next export",
